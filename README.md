@@ -768,7 +768,7 @@ function MyComponent() {
     setGlobal(g => ({
       generations: g.generations + 1,
       myNumber: Math.floor(Math.random() * 100),
-    });
+    }));
   };
   return (
     <button onClick={generateNumber}>
